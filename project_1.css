@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Droid+Sans');
+
+/* PC Screen size */
+body {
+  background: url(background.png) no-repeat center center fixed;
+}
+
+.title {
+  font-family: 'Inconsolata', serif;
+  font-size: 8em;
+  font-weight: bold;
+  text-align: center;
+  color: FLORALWHITE;
+}
+
+
+form {
+  font-family: 'Droid+Sans', san-serif;
+  font-size: 2em;
+  text-align: center;
+  color: FLORALWHITE;
+  padding: 5% 0 5% 0;
+}
+
+form select {
+  font-family: 'Droid+Sans', san-serif;
+  font-size: 2em;
+  text-align: center;
+  width: 20%;
+  border: 1px DARKSLATEGRAY;
+  border-radius: 8px;
+}
+
+form input {
+  font-family: 'Droid+Sans', san-serif;
+  font-size: 2em;
+  border: 1px DARKSLATEGRAY;
+  border-radius: 8px;
+  padding: 2px;
+}
+
+.output {
+  font-family: 'Droid+Sans', san-serif;
+  font-size: 3em;
+  margin: 0;
+  padding: 4% 0 0 0;
+}
+
+button {
+  font-family: 'Droid+Sans', sans-serif;
+  font-size: 2em;
+  display: block;
+  margin: auto;
+  background-color: DARKSLATEGRAY;
+  border-radius: 16px;
+  border: none;
+  padding: 30px 60px;
+  color: white;
+}
+
+/* Tablet size */
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 1.8em;
+  }
+}
+
+/* Phone size */
+@media screen and (max-width: 425px) {
+  .title {
+    font-size: 1.6em;
+  }
+
+  .currency_select {
+    width: 100%;
+    padding: 10px 0 10px 0;
+    margin: 10px 0 10px 0;
+  }
+
+  .currency_select option {
+    text-align: center;
+  }
+
+  .input_field {
+    width: 100%;
+    padding: 10px 0 10px 0;
+    margin: 10px 0 10px 0;
+  }
+}
