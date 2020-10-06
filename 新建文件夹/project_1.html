@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Project 1 - Gaojian Song</title>
+
+  <link rel="stylesheet" href="project_1.css">
+
+  <script type="text/javascript" src="https://cdn.rawgit.com/alexgibson/shake.js/master/shake.js" defer></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" defer></script>
+  <script src="project_1.js" defer></script>
+</head>
+
+<body>
+  <div class="wrapper">
+    <h1 class="title">Currency Exchange Tool</h1>
+
+
+    <div class="conversion_form">
+      <form>
+        Convert
+        <select class="currency_select" id="currency_from">
+          <option value="usd">USD</option>
+          <option value="eur">Euro</option>
+          <option value="jpy">Japanese yen</option>
+          <option value="cny">Chinese Yuan</option>
+
+        </select>
+        <input type="number" class="input_field" id="amount_from" placeholder="Enter an amount">
+        to
+        <select class="currency_select" id="currency_to">
+          <option value="usd">USD</option>
+          <option value="eur">Euro</option>
+          <option value="jpy">Japanese yen</option>
+          <option value="cny">Chinese Yuan</option>
+
+        </select>
+
+        <h3 class="output"></h3>
+      </form>
+    </div>
+
+    <button class="convert_button">Convert</button>
+  </div>
+</body>
+
+</html>
